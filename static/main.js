@@ -1,4 +1,4 @@
-const host = 'http://localhost:3000';
+const host = 'https://nodejs-production-5fa54.up.railway.app';
 
 async function setProjects(){
     const projects = await (await fetch(host + '/projects')).json();
